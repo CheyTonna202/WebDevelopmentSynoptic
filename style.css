@@ -1,0 +1,168 @@
+*{
+  margin: 0%;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+@font-face {
+  font-family: 'nature-beauty-font';
+  src: url(Fonts/nature-beauty-font\ \(1\)/#000000);
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #8c2ea8;
+}
+header{
+  width: 100%;
+  text-decoration: none;
+  height: 40px;
+  background: #a0a717;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  font-family: 'Romance Logic Demo';
+  font-size:40px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding-top: 2px;
+  margin-bottom: -15px;
+}
+.logo a{
+  color: #e1ff00;
+}
+.bar{
+  display: none;
+}
+.nav-bar ul{
+  display: flex;
+}
+.nav-bar ul li a{
+  display: block;
+  color:#000000;
+  font-size: 20px 
+}
+.nav-bar ul li a{
+  border-radius: 6px;
+  transition: 0.2s;
+  margin: 0 15px;
+  margin-top: 15px;
+}
+.nav-bar ul li a:hover{
+  color: #fcf3ff;
+  background: #5e6109;
+  padding-left: 7px;
+  padding-right: 7px;
+  opacity: 80%;
+}
+.nav-bar ul li a.active{
+  color: #fcf3ff;
+  background: #5e6109;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+@media only screen and (max-width: 1320px){
+  header{
+      padding: 0 10px;
+      display: flex;
+  }
+}
+.socialtop{
+  padding-top: 0;
+}
+.top-social{
+  padding: 5px 10px;
+}
+.top-social a{
+  padding: 5px;
+  color: #28182d;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.top-social a:hover{
+  background:#5e6109 ;
+  color: #fdffb9;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1052px){
+  .top-social{
+      display: block;
+  }
+}
+.iulogo{
+  justify-content: center;
+  padding-top: 8px;
+}
+.iulogo{
+  display: flex;
+}
+.album{
+  color: #f9e8ff;
+  font-family: 'Romance Logic Demo';
+  font-weight: bolder;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background: #1a051a;
+  color: #28182d;
+  justify-content: center;
+  border-color: #9ba00f;
+  border-style:double;
+}
+.card-title{
+  font-family: 'Romance Logic Demo';
+  font-weight: bold;
+  height: 20px;
+  margin-left: 25%;
+}
+
+audio{
+  max-width: 100%;
+}
+audio::-webkit-media-controls-panel{
+  background-color: #efadff;
+
+}
+audio::-webkit-media-controls-panel{
+  justify-content: center;
+}
+.audio{
+  margin-left: 10%;
+}
+audio{
+  display: flex;
+}
+.Lee{
+  font-family: 'Romance Logic Demo';
+}
+footer{
+  text-align: center;
+  background-color: #1a051a;
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fcf3ff;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.socials a{
+  color: #d094b9;
+  padding: 5px 10px;
+}
+.socials a:hover{
+  background:#ff54ce ;
+  color: #e9e9e9;
+  border-radius: 5px;
+}
+
+
+
+
