@@ -5,8 +5,8 @@
     list-style: none;
 }
 @font-face {
-    font-family: 'Romance Logic Demo';
-    src: url(RomanceLogicDemo-Wy8BE.ttf);
+    font-family: 'Night-pumpkin-font';
+    src: url(Fonts/night-pumpkind-font/NightPumpkind-1GpGv.ttf);
 }
 body{
     font-family: 'Lato',sans-serif;

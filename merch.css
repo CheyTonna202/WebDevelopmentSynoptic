@@ -22,8 +22,8 @@ a{
     text-decoration: none;
 }
 @font-face {
-    font-family: 'Romance Logic Demo';
-    src: url(RomanceLogicDemo-Wy8BE.ttf);
+    font-family: 'Night-pumpkin-font';
+    src: url(Fonts/night-pumpkind-font/NightPumpkind-1GpGv.ttf);
 }
 .logo a{
     font-family: 'Romance Logic Demo';
